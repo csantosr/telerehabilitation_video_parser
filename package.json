@@ -1,0 +1,35 @@
+{
+  "name": "telerehabilitation_video_parser",
+  "version": "1.0.0",
+  "description": "API to parse videos sended from telerehabilitation_API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "posenet",
+    "video",
+    "api",
+    "express"
+  ],
+  "author": "Cristian Santos <santosriberofernando@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.1",
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "body-parser": "^1.19.0",
+    "botkit": "^4.10.0",
+    "canvas": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "ffmpeg": "0.0.4",
+    "fs-extra": "^9.0.1",
+    "get-video-dimensions": "^1.0.0",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "rollup": "^2.32.1"
+  }
+}
